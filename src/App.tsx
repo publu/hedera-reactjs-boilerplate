@@ -3,7 +3,6 @@ import logo from './logo.svg';
 import './App.css';
 import hedera from './hedera';
 
-
 function App() {
 
   const dataContractDeploy = {

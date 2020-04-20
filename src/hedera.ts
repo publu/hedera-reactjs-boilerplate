@@ -8,7 +8,7 @@
 
 import hash from "hash-sdk"; 
 
-const hashSdk = {...hash};
+const hashSdk = {...hash}
 
    /**
     * Initializes an account for interacting with below functions
