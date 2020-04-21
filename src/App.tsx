@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import hedera from './hedera';
 
+
 function App() {
 
   const dataContractDeploy = {
@@ -162,14 +163,23 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://docs.hedera.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn Hedera Hashgraph
         </a>
+      <p>
+          Step 1: Set provider chooses the wallet
+      </p>
       <button onClick={()=>setProvider()}> SET PROVIDER </button>
+      <p>
+          Step 2 (optional): If wallet needs to be set manually
+      </p>
       <button onClick={()=>setAccount()}> SET ACCOUNT </button>
+      <p>
+          Step 3: Once accounts are set. These are the functions available:
+      </p>
       <button onClick={()=>checkBalance()}> ACCOUNT INFO </button>
       <button onClick={()=>cryptoTransfer()}> CRYPTO TRANSFER </button>
       <button onClick={()=>contractCall()}> CONTRACT CALL </button>
