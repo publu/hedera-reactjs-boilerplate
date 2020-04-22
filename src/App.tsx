@@ -145,7 +145,7 @@ function App() {
       message:'Hi Paul',
       topicId:'0.0.187476'
     }
-    let resp =await hedera.hashSdk.triggerSubmitMessage(data, (err, res) => {
+    let resp =await hedera.hashSdk.triggerMessageSubmit(data, (err, res) => {
       console.log('SUCCESS SUBMIT_MESSAGE cb:::', res);
       console.log('ERROR SUBMIT_MESSAGE cb:::', err);
     });
